@@ -4,9 +4,11 @@
   "description": "",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.3",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "0.8.3",
+    "maximum": "10"
+  },
   "authors": [
     {
       "name": "Kandashi",
@@ -17,9 +19,10 @@
   "packs": [
     {
       "name": "classfeatures",
+      "system": "dnd5e",
       "label": "Custom Classes",
       "path": "packs/classItems",
-      "entity": "Item",
+      "type": "Item",
       "module": "custom-classes"
     }
   ],
